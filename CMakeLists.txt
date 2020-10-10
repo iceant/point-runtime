@@ -5,6 +5,6 @@ set(CMAKE_C_STANDARD 99)
 
 include_directories(.)
 
-add_library(point_runtime pr_types.c)
+add_library(point_runtime pr_types.c pr_memory.c pr_memory.h)
 
 include(test.cmake)
